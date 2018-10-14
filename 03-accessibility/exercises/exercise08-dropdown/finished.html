@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Exercise 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/normalize.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Exercise 3</h1>
+    <p><a href="#">link above content</a></p>
+
+    <button
+      type="button"
+      aria-label="Current company: Weyland Industries. Use the dropdown menu to switch companies"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      Weyland Industries
+    </button>
+    <ul aria-label="Switch Companies" role="menu">
+      <li role="presentation"><a role="menuitem" href="#"><span class="hidden">Current company: </span> Weyland Industries</a></li>
+      <li role="presentation"><a role="menuitem" href="#">Stark Industries</a></li>
+      <li role="presentation"><a role="menuitem" href="#">Cyberdyne Systems</a></li>
+    </ul>
+
+  </div>
+</body>
+</html>
